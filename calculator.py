@@ -3,7 +3,7 @@ import tkinter as tk
 class Calculator:
     def __init__(self, master):
         self.master = master
-        master.title("Simple Calculator")
+        master.title("Small Calculator")
 
         # Entry widget to display calculations
         self.result_var = tk.StringVar()
